@@ -15,6 +15,11 @@ class MyApp extends StatelessWidget {
           title: Text('I am poor'),
           backgroundColor: Colors.blueGrey[900],
         ),
+        body: Center(
+          child: Image(
+            image: AssetImage('images/pluto-fata-error.png'),
+          ),
+        ),
       ),
     );
   }
